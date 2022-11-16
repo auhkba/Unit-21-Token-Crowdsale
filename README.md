@@ -16,7 +16,7 @@
 
 1. Contract Setup
 
-![](/Evaluation%20Evidence/step_4_contractSetup.mov)
+![](/Evaluation%20Evidence/BNYJBlDGW0.gif)
 
 2.  Purchase KAI
 
