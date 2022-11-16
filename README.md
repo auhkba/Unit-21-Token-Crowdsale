@@ -1,5 +1,7 @@
 # Unit-21-Token-Crowdsale
 
+Project : Launch a crowdsale to convert their ether money to KaseiCoin.
+
 ## Step 1 - Create the KaseiCoin Token Contract
 
 ![step 1](/Evaluation%20Evidence/step_1.png)
@@ -26,10 +28,9 @@
 
 2.  Purchase new KAI Tokens
 ```
-1. check the balances of accounts(...)
-2. review total supply of minted token (...)
-3. amount of wei reaised (...)
-
+1. check the balances of accounts(OxA8...0874 = beneficiary address)
+2. review total supply of minted token (1000 KAI tokens)
+3. amount of wei reaised (1000 wei)
 ```
 ![](/Evaluation%20Evidence/step_4_purchaseToken.gif)
 
@@ -47,11 +48,10 @@ open time for crowdsale :  'now' ,
 close time for crowdsale : 'now + 8 minutes'
 min. amount of goal for KAI tokens : '100 ETH'
 cap of KAI tokens raised: '200 ETH'
-
 ```
 ![](/Evaluation%20Evidence/deployContract_a.gif)
 
-...continue...
+...continue from above
 
 ![](/Evaluation%20Evidence/deployContract_b.gif)
 
@@ -59,7 +59,7 @@ cap of KAI tokens raised: '200 ETH'
 
 ## Step 6 - Review tokens in MataMask
 
-> **Press** `finalize` function to end the sale after **8 minutes** of deployment.- To stored tokens in **Crowdsale contract**.
+> **Press** `finalize` function to end the sale after close time (**8 minutes**) of deployment.- To stored tokens in **Crowdsale contract**.
 
 > **Press** `withdrawTokens` function, set `beneficiary` address for Account 2 , 3, 4 in **Matamask**. - To transfer tokens to **Token contract**
 
